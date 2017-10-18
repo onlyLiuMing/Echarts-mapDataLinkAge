@@ -6,8 +6,5 @@ module.exports = {
     output:{
         filename:'[name].js',
         path:__dirname + '/public'
-    },
-    devServer:{
-        inline:true
     }
 }
