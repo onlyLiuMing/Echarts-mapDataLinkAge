@@ -6,6 +6,10 @@
 - 尝试用webpack进行打包拆分，不过这本来就属于一个图形数据模块，本来不应该拆分解耦的，强行解耦，导致内部有些混乱不堪，看看就好了
 - 由于数据是自己瞎几把写的，全国省市东西太多了，所以下钻只有‘广东’有数据可以显示
 
+> 项目中使用的webpack-dev-server插件需要全局安装，否则会出现‘未查询到命令’的错误
+
+	#npm install -g webpack-dev-server
+
 > 由于用了jQuery.ajax模块，所以需要webpack-dev-server进行模拟服务器请求静态文件,执行以下语句运行代码
 
     #npm run server
